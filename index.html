@@ -37,7 +37,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Sevenkey Hitam Corak (XL)</h5>
                           <p class="card-text">Rp.95.000,00</p>
-                          <button class="btn btn-warning w-100">+ Keranjang</button>
+                          <button class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#keranjang">+ Keranjang</button>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Sevenkey Hitam Corak (XL)</h5>
                           <p class="card-text">Rp.95.000,00</p>
-                          <button class="btn btn-warning w-100">+ Keranjang</button>
+                          <button class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#keranjang">+ Keranjang</button>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Sevenkey Hitam Corak (XL)</h5>
                           <p class="card-text">Rp.95.000,00</p>
-                          <button class="btn btn-warning w-100">+ Keranjang</button>
+                          <button class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#keranjang">+ Keranjang</button>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Sevenkey Hitam Corak (XL)</h5>
                           <p class="card-text">Rp.95.000,00</p>
-                          <button class="btn btn-warning w-100">+ Keranjang</button>
+                          <button class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#keranjang">+ Keranjang</button>
                         </div>
                     </div>
                 </div>
@@ -81,13 +81,58 @@
                         <div class="card-body">
                           <h5 class="card-title">Sevenkey Hitam Corak (XL)</h5>
                           <p class="card-text">Rp.95.000,00</p>
-                          <button class="btn btn-warning w-100">+ Keranjang</button>
+                          <button class="btn btn-warning w-100" data-bs-toggle="modal" data-bs-target="#keranjang">+ Keranjang</button>
                         </div>
                     </div>
                 </div>
     
             </div>
         </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="keranjang" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Keranjangku</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table class="table">
+                <thead class="text-center">
+                  <tr>
+                    <th scope="col">Id barang</th>
+                    <th scope="col">Nama barang</th>
+                    <th scope="col">@</th>
+                    <th scope="col">Jumlah</th>
+                    <th scope="col">Sub total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Sevenkey Hitam Corak (XL)</td>
+                    <td>Rp.95.000,00</td>
+                    <td>1</td>
+                    <td>Rp.95.000,00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sevenkey Hitam Corak (L)</td>
+                    <td>Rp.55.000,00</td>
+                    <td>2</td>
+                    <td>Rp.110.000,00</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div style="justify-content: space-between;" class="modal-footer float-none">
+            <h5>Total : Rp.165.000,00</h5>
+            <button type="button" class="btn btn-primary float-end">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
