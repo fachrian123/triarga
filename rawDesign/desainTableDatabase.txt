@@ -1,0 +1,9 @@
+tbl_barang
+-----------
+id_barang -> auto_increment
+foto_barang -> text()
+nama_barang -> varchar(100)
+harga_barang -> int(8)
+ukuran_barang -> varchar(5)
+detail_barang -> text()
+

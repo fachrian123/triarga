@@ -1,0 +1,3 @@
+Skema Rekomendasi
+1. Cari pada tbl_proses kategori barang yang paling banyak dibeli sesuai username (barang terfavorit)
+2. Cari pada tbl_rating barang yang sesuai dengan kategori barang terfavorit sesuai nomor 1

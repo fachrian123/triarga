@@ -1,0 +1,29 @@
+.rating {
+unicode-bidi: bidi-override;
+}
+
+.star {
+display: inline-block;
+font-size: 40px;
+color: gray;
+cursor: pointer;
+}
+
+.aktif {
+color: gold;
+}
+
+.bg-rekom {
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(56deg, rgba(255, 0, 0, 0.5) 0%, rgba(245, 255, 0, 0.7) 100%);
+    border: 0px;
+    transition: background 0.3s ease, background-color 0.3s ease; /* Menambahkan transisi untuk perubahan latar belakang dan warna latar belakang */
+}
+
+.bg-rekom:hover {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(238deg, rgba(255, 0, 0, 0.2) 0%, rgba(245, 255, 0, 0.5) 100%);
+    background-color: rgba(255, 0, 0, 0.5); /* Menambahkan perubahan warna latar belakang */
+    border: 0px;
+}

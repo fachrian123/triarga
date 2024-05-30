@@ -1,55 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Toko Triarga</title>
-    <script>
-      function updateNilai(nilai) {
-          document.getElementById('nilai_terpilih').innerHTML = nilai;
-      }
-    </script>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="fixed-top container-fluid bg-danger">
-            <a class="navbar-brand" href="index.html" style="font-size: 40px; font-family: 'Times New Roman', Times, serif;">TRI ARGA</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="tentang.html" style="text-decoration: none;">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="alamat.html" style="text-decoration: none;">Alamat Kami</a>
-                </li>
-            </ul>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 24 24"><circle cx="10.5" cy="19.5" r="1.5" fill="#fff"/><circle cx="17.5" cy="19.5" r="1.5" fill="#fff"/><path fill="#fff" d="m14 13.99l4-5h-3v-4h-2v4h-3z"/><path fill="#fff" d="M17.31 15h-6.64L6.18 4.23A2 2 0 0 0 4.33 3H2v2h2.33l4.75 11.38A1 1 0 0 0 10 17h8a1 1 0 0 0 .93-.64L21.76 9h-2.14z"/></svg>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 2048 2048"><path fill="#fff" d="M1024 128v1792H896V128z"/></svg>
-
-            <div class="row">
-              <div class="col">
-                <a href="login.html" class="btn btn-light text-danger">Login</a>
-              </div>
-              <div class="col">
-                <a href="daftar.html" class="btn btn-light text-danger">Daftar</a>
-              </div>
-            </div>
-            
-            
-            
-
-        </div>
-    </nav>   
-        <div class="container" style="margin-top: 80px;">
+<div class="container" style="margin-top: 80px;">
             <div class="row gy-4 justify-content-center">
     
                 <div class="col col-sm-4 text-center">
@@ -250,19 +199,3 @@
       </div>
     </div>
   </div>
-  
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-</body>
-
-</html>
